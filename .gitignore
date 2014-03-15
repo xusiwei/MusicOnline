@@ -1,1 +1,3 @@
 
+# ignore class files
+WebRoot/WEB-INF/classes/*

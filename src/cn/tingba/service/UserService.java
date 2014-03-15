@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
 
 import org.apache.commons.io.output.NullWriter;
 
-import cn.tinba.comon.Const;
+import cn.tingba.common.Const;
 import cn.tingba.dao.UserDao;
 import cn.tingba.dao.impl.UserDaoImpl;
 import cn.tingba.entity.User;

@@ -11,7 +11,7 @@ import javax.servlet.Servlet;
 import org.apache.commons.io.FileUtils;
 import org.apache.struts2.ServletActionContext;
 
-import cn.tinba.comon.Const;
+import cn.tingba.common.Const;
 import cn.tingba.entity.Song;
 import cn.tingba.entity.User;
 import cn.tingba.service.SongService;

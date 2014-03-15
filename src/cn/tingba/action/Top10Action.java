@@ -3,7 +3,7 @@ package cn.tingba.action;
 import java.util.List;
 import java.util.Map;
 
-import cn.tinba.comon.Const;
+import cn.tingba.common.Const;
 import cn.tingba.entity.Song;
 import cn.tingba.service.SongTopNService;
 
