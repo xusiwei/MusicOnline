@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="tingba"
+  id="myeclipse.1388408649891"
+  context-root="/tingba"
+  j2ee-spec="5.0"
+  archive="tingba.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

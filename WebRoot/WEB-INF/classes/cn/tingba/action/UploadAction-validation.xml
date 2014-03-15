@@ -1,0 +1,40 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+
+	<field name="song">
+		<field-validator type="required" short-circuit="true">
+			<message>歌曲文件必选</message>
+		</field-validator>
+	</field>
+
+	<field name="name">
+		<field-validator type="requiredstring" short-circuit="true">
+			<param name="trim">true</param>
+			<message>歌名不能为空</message>
+		</field-validator>
+	</field>
+
+	<field name="singer">
+		<field-validator type="requiredstring" short-circuit="true">
+			<param name="trim">true</param>
+			<message>歌手不能为空</message>
+		</field-validator>
+	</field>
+
+	<field name="style">
+		<field-validator type="requiredstring" short-circuit="true">
+			<param name="trim">true</param>
+			<message>风格不能为空</message>
+		</field-validator>
+	</field>
+
+	<field name="validateNum">
+		<field-validator type="requiredstring" short-circuit="true">
+			<param name="trim">true</param>
+			<message>验证码必填</message>
+		</field-validator>
+	</field>
+
+</validators>
+ 
