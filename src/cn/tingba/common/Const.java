@@ -1,4 +1,4 @@
-package cn.tinba.comon;
+package cn.tingba.common;
 
 public class Const {
 	
